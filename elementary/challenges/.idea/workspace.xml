@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83e53b5a-2852-4965-9e39-ba018d29bd2f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/challenges/elementary.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" lean-forward="true" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/challenges/elementary.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="73" />
+    <option name="width" value="1283" />
+    <option name="height" value="374" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="cursive.last.file.extension./home/wagner/devel/job-interview-preparation/nubank/4clojure/elementary/challenges/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="ReplState" timestamp="1562896457063">{:repl-history {:ide [], :local [{:command &quot;(list 1 2 3)&quot;, :offset 12, :ns &quot;challenges.elementary&quot;} {:command &quot;(list :a :b :c)&quot;, :offset 15, :ns &quot;challenges.elementary&quot;} {:command &quot;(conj '(2 3 4) 1)&quot;, :offset 17, :ns &quot;challenges.elementary&quot;} {:command &quot;(= '(1 2 3 4)) (conj '(2 3 4) 1)&quot;, :offset 32, :ns &quot;challenges.elementary&quot;} {:command &quot;(conj '(3 4) 2 1)&quot;, :offset 17, :ns &quot;challenges.elementary&quot;} {:command &quot;(= '(1 2 3 4)  (conj '(3 4) 2 1))&quot;, :offset 33, :ns &quot;challenges.elementary&quot;} {:command &quot;(vec '(:a :b :c))&quot;, :offset 17, :ns &quot;challenges.elementary&quot;} {:command &quot;(vector :a :b :c)&quot;, :offset 17, :ns &quot;challenges.elementary&quot;} {:command &quot;(set '(:a :a :b :c :c :d))&quot;, :offset 26, :ns &quot;challenges.elementary&quot;} {:command &quot;(clojure.set/union #{:a :b :c} #{:b :c :d})&quot;, :offset 43, :ns &quot;challenges.elementary&quot;} {:command &quot;(= #{1 2 3 4} #{1 2 3 4})&quot;, :offset 25, :ns &quot;challenges.elementary&quot;} {:command &quot;((hash-map :a 10 :b 20 :c 30) :b)&quot;, :offset 33, :ns &quot;challenges.elementary&quot;} {:command &quot;(:b (:a 10 :b 20 :c 30))&quot;, :offset 24, :ns &quot;challenges.elementary&quot;} {:command &quot;(:b {:a 10 :b 20 :c 30})&quot;, :offset 24, :ns &quot;challenges.elementary&quot;} {:command &quot;(conj {:a 1} [:b 2] [:c 3])&quot;, :offset 27, :ns &quot;challenges.elementary&quot;} {:command &quot;(first '(3 2 1))&quot;, :offset 16, :ns &quot;challenges.elementary&quot;} {:command &quot;(rest [10 20 30 40])&quot;, :offset 20, :ns &quot;challenges.elementary&quot;} {:command &quot;('(20 30 40) (rest [10 20 30 40]))&quot;, :offset 34, :ns &quot;challenges.elementary&quot;} {:command &quot;(= '(20 30 40) (rest [10 20 30 40]))&quot;, :offset 36, :ns &quot;challenges.elementary&quot;} {:command &quot;((fn add-five [x] (+ x 5)) 3)&quot;, :offset 29, :ns &quot;challenges.elementary&quot;} {:command &quot;((fn [x] (+ x 5)) 3)&quot;, :offset 20, :ns &quot;challenges.elementary&quot;} {:command &quot;(= (* 2 2) 4)&quot;, :offset 13, :ns &quot;challenges.elementary&quot;} {:command &quot;(#(* % 2) 2)&quot;, :offset 12, :ns &quot;challenges.elementary&quot;} {:command &quot;(#(str \&quot;Hello, \&quot; % \&quot;!\&quot;) \&quot;Dave\&quot;)&quot;, :offset 31, :ns &quot;challenges.elementary&quot;} {:command &quot;(map #(+ % 5) '(1 2 3))&quot;, :offset 23, :ns &quot;challenges.elementary&quot;} {:command &quot;(= '(6 7 8) (map #(+ % 5) '(1 2 3)))&quot;, :offset 36, :ns &quot;challenges.elementary&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="repl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="challenges" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83e53b5a-2852-4965-9e39-ba018d29bd2f" name="Default Changelist" comment="" />
+      <created>1562881464122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562881464122</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="52" y="27" width="1314" height="741" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24986821" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info active="true" anchor="right" id="REPL" side_tool="true" visible="true" weight="0.5197161" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Leiningen" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/challenges/elementary.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
