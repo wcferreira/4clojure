@@ -1,27 +1,11 @@
 (ns easy.get-the-caps)
 
-(def example "HeLlO, WoRlD!")
-
-(defn is-upper? [c]
-  (and
-    (>= (int c) (int \A))
-    (<= (int c) (int \Z))))
-
-;(println "CAPS:"
-;         (reduce
-;           (fn [coll ch]
-;             (if (is-upper? ch)
-;               (conj coll ch)
-;               coll)) [] example))
-
-;(println "CAPS2:"
-;         (reduce
-;           (fn [coll ch]
-;             (if (and (>= (int ch) (int \A))
-;                      (<= (int ch) (int \Z)))
-;               (conj coll ch)
-;               coll)) [] example))
-
+;; Get the Caps
+;; Problem: Write a function which takes a string and returns a new string containing only the capital letters.
+;; Examples:
+;;          (= (__ "HeLlO, WoRlD!") "HLOWRD")
+;;          (empty? (__ "nothing"))
+;;          (= (__ "$#A(*&987Zf") "AZ")
 
 (defn get-caps [s]
   (clojure.string/join ""
@@ -32,7 +16,5 @@
            (conj coll ch)
            coll)) [] s)))
 
-
-
-;; Other solution
+;; Another solution
 (println (clojure.string/join "" (re-seq #"[A-Z]+" example)))

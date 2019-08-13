@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b798851a-21a5-4ea4-9bf0-09af1df9b6be" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/classes/" />
+    <list default="true" id="b798851a-21a5-4ea4-9bf0-09af1df9b6be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/easy/advanced_destructuring.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/indexing_sequences.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/read_binary_number.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/removing_items.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/replicate_sequence.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/split_sequence.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/easy/indexing_sequences_test.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/easy/read_binary_number_test.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/easy/removing_items_test.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/easy/set_intersection_test.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/easy/split_sequence_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/easy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/#implement_range.clj#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/cartesian_product.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/cartesian_product.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/compress_a_sequence.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/compress_sequence.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/compress_sequence.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/count_sequence.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/count_sequence.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/duplicate_sequence.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/duplicate_sequence.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/factorial_fun.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/factorial_fun.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/fibonacci_sequence.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/fibonacci_sequence.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/find_odd_numbers.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/find_odd_numbers.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/get_the_caps.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/get_the_caps.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/half_true.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/half_true.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/implement_range.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/implement_range.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/interleave_two_sequences.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/interleave_two_sequences.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/interpose_seq.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/interpose_seq.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/intro_to_some.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/intro_to_some.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/last_element.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/last_element.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/map_construction.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/map_construction.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/maximum_value.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/maximum_value.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/nth_element.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/nth_element.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/palindrome_detector.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/palindrome_detector.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/penultimate_element.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/penultimate_element.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/product_digits.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/product_digits.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/reverse_a_sequence.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/reverse_a_sequence.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/set_intersection.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/set_intersection.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/sum_it_all_up.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/sum_it_all_up.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/easy/replicate_sequence_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/easy/replicate_sequence_test.clj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,132 +55,25 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/cartesian_product.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/set_intersection.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/easy/cartesian_product_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Clojure Test Namespace" />
         <option value="Clojure Namespace" />
+        <option value="Clojure Test Namespace" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/easy/last_element.clj" />
-        <option value="$PROJECT_DIR$/src/easy/penultimate_element.clj" />
-        <option value="$PROJECT_DIR$/src/easy/nth_element.clj" />
-        <option value="$PROJECT_DIR$/src/easy/count_sequence.clj" />
-        <option value="$PROJECT_DIR$/src/easy/sum_it_all_up.clj" />
-        <option value="$PROJECT_DIR$/src/easy/find_odd_numbers.clj" />
-        <option value="$PROJECT_DIR$/src/easy/reverse_a_sequence.clj" />
-        <option value="$PROJECT_DIR$/test/easy/reverse_a_sequence_test.clj" />
-        <option value="$PROJECT_DIR$/src/easy/palindrome_detector.clj" />
-        <option value="$PROJECT_DIR$/test/easy/palindrome_detector_test.clj" />
-        <option value="$PROJECT_DIR$/src/easy/fibonacci_sequence.clj" />
-        <option value="$PROJECT_DIR$/src/easy/maximum_value.clj" />
-        <option value="$PROJECT_DIR$/test/easy/maximum_value_test.clj" />
-        <option value="$PROJECT_DIR$/src/easy/get_the_caps.clj" />
-        <option value="$PROJECT_DIR$/test/easy/get_caps_test.clj" />
-        <option value="$PROJECT_DIR$/test/easy/intro_to_some.clj" />
-        <option value="$PROJECT_DIR$/src/easy/intro_to_some.clj" />
-        <option value="$PROJECT_DIR$/test/easy/duplicate_sequence_test.clj" />
-        <option value="$PROJECT_DIR$/src/easy/duplicate_sequence.clj" />
-        <option value="$PROJECT_DIR$/test/easy/compress_a_sequence_test.clj" />
-        <option value="$PROJECT_DIR$/src/easy/implement_range.clj" />
-        <option value="$PROJECT_DIR$/src/easy/implement_range_test.clj" />
-        <option value="$PROJECT_DIR$/test/easy/implement_range_test.clj" />
-        <option value="$PROJECT_DIR$/src/easy/interleave_two_sequences.clj" />
-        <option value="$PROJECT_DIR$/test/easy/interleave_two_sequences_test.clj" />
-        <option value="$PROJECT_DIR$/src/easy/compress_a_sequence.clj" />
-        <option value="$PROJECT_DIR$/test/easy/cartesian_product_test.clj" />
-        <option value="$PROJECT_DIR$/src/easy/cartesian_product.clj" />
-        <option value="$PROJECT_DIR$/src/easy/set_intersection.clj" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1PMrRpmXI1iVQ6v5rnvnkHJQr0L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cursive.last.file.extension./home/wagner/devel/clojure/4clojure/easy/src" value="clj" />
+    <property name="cursive.last.file.extension./home/wagner/devel/clojure/4clojure/easy/test" value="clj" />
     <property name="cursive.last.file.extension./home/wagner/devel/job-interview-preparation/nubank/4clojure/easy/src" value="clj" />
     <property name="cursive.last.file.extension./home/wagner/devel/job-interview-preparation/nubank/4clojure/easy/test" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -162,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Clojure REPL.repl">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -192,6 +125,23 @@
       <setting name="aliases" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="set_intersection" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="easy" />
+      <setting name="path" value="$PROJECT_DIR$/src/easy/set_intersection.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/easy" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure Application.set_intersection" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -206,6 +156,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <layout>
@@ -430,6 +381,20 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> ab9c62bc8202fa8cc13c72d462be52a662272b37
   </component>
   <component name="masterDetails">
     <states>
