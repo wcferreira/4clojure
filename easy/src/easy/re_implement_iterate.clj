@@ -8,4 +8,12 @@
 ;;          (= (take 9 (__ #(inc (mod % 3)) 1)) (take 9 (cycle [1 2 3])))
 
 (defn my-it [func n]
-  (map func (lazy-seq (cons n (my-it func (inc n))))))
+  (map func (lazy-seq (cons n (my-it func (func n))))))
+
+
+(defn positive-numbers
+	([] (positive-numbers 1))
+	([n] (lazy-seq (cons n (positive-numbers (inc n))))))
+
+(defn positive-numbers
+  ([n] (lazy-seq (cons n (positive-numbers (inc n))))))
