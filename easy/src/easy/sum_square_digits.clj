@@ -21,15 +21,30 @@
 ;      x)))
 
 ;; Another Solution
+;(defn sum-squared-digits [s]
+;  (count
+;    (for [x s
+;          :let [x-to-str (str x)
+;                digits (clojure.string/split x-to-str #"")
+;                digits-squared (reduce + (map #(* % %)  (map #(Integer. (re-find #"\d+" %)) digits)))]
+;          :when (< x digits-squared)
+;          ]
+;      x)))
+
+;; Solution to please the 4clojure environment
 (defn sum-squared-digits [s]
   (count
-    (for [x s
-          :let [x-to-str (str x)
-                digits (clojure.string/split x-to-str #"")
-                digits-squared (reduce + (map #(* % %)  (map #(Integer. (re-find #"\d+" %)) digits)))]
-          :when (< x digits-squared)
-          ]
-      x)))
+    (for [e s
+          :let [ digits ((fn [num]
+                           (loop [c [] n num]
+                             (if (< n 10)
+                               (conj c n)
+                               (recur (conj c (mod n 10)) (quot n 10))))) e)
 
-(defn sum-of-squares [v]
-  (reduce #(+ %1 (* %2 %2)) 0 v))
+                digits-squared (reduce + (map #(* % %) digits))]
+          :when (< e digits-squared)]
+      e)))
+
+
+
+
