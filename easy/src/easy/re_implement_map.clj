@@ -14,10 +14,19 @@
 ;                    (drop (dec 1000000))
 ;                    (take 2)))
 
-(defn my-map [func coll]
-    (loop [new-coll [] xseq coll]
-      (if (empty? xseq)
-        new-coll
-        (recur
-          (conj new-coll (func (first xseq)))
-          (rest xseq)))))
+;(defn my-map [func coll]
+;    (loop [new-coll [] xseq coll]
+;      (if (empty? xseq)
+;        new-coll
+;        (recur
+;          (conj new-coll (func (first xseq)))
+;
+;     (rest xseq)))))
+
+;(defn my-it [func base]
+;  (lazy-seq
+;    (cons base (my-it func (func base)))))
+
+(defn my-it [func base]
+  (lazy-seq
+    (cons (first base) (my-it func (func (rest base))))))
