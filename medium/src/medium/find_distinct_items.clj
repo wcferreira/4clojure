@@ -9,10 +9,20 @@
 ;;          (= (__ '([2 4] [1 2] [1 3] [1 3])) '([2 4] [1 2] [1 3]))
 ;;          (= (__ (range 50)) (range 50))
 
+;(defn find-dist [coll]
+;  (loop [myset (sorted-set) mycoll coll]
+;    (if (empty? mycoll)
+;      (seq myset)
+;      (recur
+;        (conj myset (first mycoll))
+;        (rest mycoll)))))
+
 (defn find-dist [coll]
-  (loop [myset (sorted-set) mycoll coll]
+  (loop [myvec [] myset #{}  mycoll coll]
     (if (empty? mycoll)
-      (seq myset)
-      (recur
-        (conj myset (first mycoll))
-        (rest mycoll)))))
+      (filter identity myvec)
+      (let [element (if (contains? myset (first mycoll)) nil (first mycoll))]
+        (recur
+          (conj myvec element)
+          (conj myset (first mycoll))
+          (rest mycoll))))))
