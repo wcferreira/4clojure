@@ -13,11 +13,7 @@
 ;;
 
 
-(defn mycmp [s1 s2]
-  (if (< (compare s1 s2) 0)
-    s1
-    s2)
-  )
-
-(defn foo [mystr]
-  (clojure.string/split (subs mystr 0 (- (count mystr) 1)) #"\s+"))
+(defn word-sorting [s]
+  (let [mystr (clojure.string/split (subs s 0 (- (count s) 1)) #"\s+")
+        sorted-str (sort-by clojure.string/upper-case mystr)]
+    sorted-str))
